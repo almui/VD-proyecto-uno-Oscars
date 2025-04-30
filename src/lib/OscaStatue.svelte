@@ -15,7 +15,7 @@ let alturaCannes = d3.scaleLinear()
     .range([0, 95])
  
   let color =  d3.scaleLinear()
-    .domain([0, d3.max(numbers, n => n.cantidad)]) 
+    .domain([0, d3.max(numbers, n => n.oscar)]) 
     .range(["	rgb(220, 139, 40)","#Bd4b1a"])
  
 
@@ -30,10 +30,10 @@ let alturaCannes = d3.scaleLinear()
   <div>
 
     <div class="item-wrapper">
-      <p class="number" style= "color: {color(n.cantidad)}">{n.cantidad}</p>
+      <p class="number" style= "color: {color(n.oscar)}">{n.oscar}</p>
       <div class="column-wrapper">
         <div class="dorado" style="background-color: #E7B548"></div>
-        <div class="column-oscar" style="height: { alturaOscar(n.cantidad)}%; background-color: {color(n.cantidad)}"></div>
+        <div class="column-oscar" style="height: { alturaOscar(n.oscar)}%; background-color: {color(n.oscar)}"></div>
         <img class="oscar" src="./images/oscar_dorado.svg" alt="">
       </div>
       <p class="pelicula">{n.pelicula}</p>

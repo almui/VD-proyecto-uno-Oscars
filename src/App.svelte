@@ -5,16 +5,19 @@
   import CanneStatue from "./lib/CanneStatue.svelte"
 
 
-  let numbers = [{pelicula:"The Departed (2006)", cantidad:24, otra:23}, 
-{pelicula:"A Beautiful Mind (2001)", cantidad:33, otra:35}, 
-{pelicula:"Chicago (2002)", cantidad:42, otra: 45}, 
-{pelicula:"The Kings Speech (2010)", cantidad:54, otra: 56}, 
-{pelicula:"Green Book (2018)", cantidad:63, otra: 50}, 
-{pelicula:"Slumdog Millionaire (2008)", cantidad:71, otra: 43}, 
-{pelicula:"Gladiator (2000)", cantidad:77, otra: 38}, 
-{pelicula:"Forrest Gump (1994)", cantidad:87, otra:32}, 
-{pelicula:"LotR: The Return of the King (2003)", cantidad:92, otra: 28}, 
-{pelicula:"Titanic (1997)", cantidad:98, otra:25}]
+  let numbers = [
+  {pelicula: "The Departed (2006)", oscar: 24, cannes: 23},
+  {pelicula: "A Beautiful Mind (2001)", oscar: 33, cannes: 35},
+  {pelicula: "Chicago (2002)", oscar: 42, cannes: 45},
+  {pelicula: "The Kings Speech (2010)", oscar: 54, cannes: 56},
+  {pelicula: "Green Book (2018)", oscar: 63, cannes: 50},
+  {pelicula: "Slumdog Millionaire (2008)", oscar: 71, cannes: 43},
+  {pelicula: "Gladiator (2000)", oscar: 77, cannes: 38},
+  {pelicula: "Forrest Gump (1994)", oscar: 87, cannes: 32},
+  {pelicula: "LotR: The Return of the King (2003)", oscar: 92, cannes: 28},
+  {pelicula: "Titanic (1997)", oscar: 98, cannes: 25}
+];
+
 
 </script>
 <div id="titulo"> 
